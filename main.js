@@ -42,24 +42,28 @@ function KTanhsang(anhSang){
             // alert("Ánh sáng quá cao")
         } 
 }
-function btn1on()
-{
-document.getElementById("nutnhan").style.background = "#00FF00"
+function btn1on(){
+    if(confirm("Bạn có chắc chắn bật đèn")==true){
+    document.getElementById("nutnhan1").style.background = "#F7FD05"
+    }
 }
 
-function btn1off()
-{
-document.getElementById("nutnhan").style.background = "#808080"
+function btn1off(){
+    if(confirm("Bạn có chắc chắn tắt đèn")==true){
+    document.getElementById("nutnhan1").style.background = "#CBA578"
+    }
 }
 
-function btn2on()
-{
-document.getElementById("nutnhan2").style.background = "#00FF00"
+function btn2on(){
+    if(confirm("Bạn có chắc chắn bật đèn")==true){
+    document.getElementById("nutnhan2").style.background = "#119EEF"
+    }
 }
 
-function btn2off()
-{
-document.getElementById("nutnhan2").style.background = "#808080"
+function btn2off(){
+   if(confirm("Bạn có chắc chắn tắt đèn")==true){
+document.getElementById("nutnhan2").style.background = "#CBA578"
+    }
 }
 
 KTnhietdo(nhietDo);
