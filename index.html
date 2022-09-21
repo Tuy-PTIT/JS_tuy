@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title>IoT_bootstrap</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="/bootstrap-5.2.1-dist/bootstrap-5.2.1-dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="jumbotron text-center text-warning bg-info ">
+            <h2>IoT</h2>
+            <h2>Nguyễn Xuân Tuy- B19DCDT210</h2>
+          </div>
+        <div class="row text-center text-white">
+            <div  class="col-4 op-1 " id="ND"> 
+                <h2 class="text-while">Nhiệt độ</h2>
+             <h1> <p id="ND2"></p></div>
+            <div class="col-4 op-2" id="DA"> <h2>Độ ẩm</h2>
+            <p><h1 id="DA2"></h1></p> </div>
+            <div class="col-4 op-3" id="AS"> <h2>Ánh sáng</h2>
+            <p><h1 id="AS2"></h1></p></div>
+        </div>
+        <div class="row text-center">
+            <div class="col-8">
+                <img class="img-fluid" src="qq.jpg" alt="demo" >
+            </div>
+            <div class="col-4 text-center text-white " > 
+                <div class="col-12 row bg-warning" style="height: 250px"> 
+                    <div class="row" style="height: 250px">
+                        <h2>LED 1</h2>
+                        <button type="button" class="btn btn-success btn-lg" onclick="btn1on()">ON</button>  
+                         <button type="button" class="btn btn-danger btn-lg" onclick="btn1off()">OFF</button>
+                     </div>
+                 </div>
+                 <div class="col-12 row bg-light text-danger" style="height: 250px"> 
+                    <h2>LED 2</h2>
+                     <div class="container">
+                          <button type="button" class="btn btn-success btn-lg">ON</button>  
+                          <button type="button" class="btn btn-danger btn-lg">OFF</button>
+                      </div>
+                 </div>
+                 </div>
+            </div>
+        </div>
+
+    
+</body>
+<script src="./main.js"></script>
+
+</html>
